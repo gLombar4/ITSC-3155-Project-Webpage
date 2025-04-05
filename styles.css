@@ -88,3 +88,8 @@ button {
 button:hover {
     background: #0056b3;
 }
+
+.garrett{
+    border: 3px solid;
+    border-color:#007BFF
+}
