@@ -16,7 +16,8 @@ header {
 
 /* Styling for team logo image */
 .team-logo {
-    width: 150px; /* Adjust the size as needed */
+    width: 150px;
+    /* Adjust the size as needed */
     margin-top: 10px;
 }
 
@@ -58,6 +59,15 @@ header nav button:hover {
     flex: 1 1 calc(30% - 40px);
     text-align: center;
     transition: transform 0.2s;
+
+    ul li {
+        text-align: left;
+    }
+
+    img {
+        height: 10em;
+        width: auto;
+    }
 }
 
 .card:hover {
@@ -87,4 +97,18 @@ button {
 
 button:hover {
     background: #0056b3;
+}
+
+/* andy styling */
+#bio1 {
+    a {
+        text-decoration: none;
+        color: #5fa3d3;
+    }
+
+    a:hover {
+        color: white;
+        background-color: #5fa3d3;
+        box-shadow: 0.25em 0.25em #538bb2;
+    }
 }
